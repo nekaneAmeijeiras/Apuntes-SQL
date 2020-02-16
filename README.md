@@ -4,7 +4,8 @@
 * [DQL (Data Query Languaje)](#DQL-(Data-Query-Languaje))
   * [Cosas a tener en cuenta](#Cosas-a-tener-en-cuenta)
   * [Estructura básica](#Estructura-básica)
-  * [FROM](#from)
+  * [Símbolos](#Símbolos)
+  * [Comodines](#Comodines)
   * [WHERE](#where)
     * [Simbolos](#simbolos)
     * [IN](#in)
@@ -55,3 +56,20 @@
   [WHERE/HAVING condición]
   [GROUP BY/ORDER BY campo/s];
   ```
+#### Símbolos
+
+* < Menor que
+* > Mayor que
+* <= Menor o igual
+* >= Mayor o igual
+* !< No menor que
+* !> No mayor que
+* = Igual
+* <> Distinto
+
+#### Comodines
+
+Denominamos comodines a aquellos simbolos que se pueden utilizar para substituir a algún valor o parte de este.
+* _ substituye a un único caracter ya sea número, letra, símbolo o espacio.
+* % substituye uno o varios caracteres de un valor.
+* * substituye a todos los valores de la tabla
