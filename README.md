@@ -47,24 +47,31 @@
 #### Estructura básica
  * **SELECT:** siempre será la primera fila de la consulta e indicará la columna de datos que queremos ver. Este debe de ir seguido del nombre de la columna.
  * **FROM:** siempre iniciará la segunda linea y le  dirá a la base de datos de que tabla queremos coger los datos, por lo que deberá ir precedido del nombre de la tabla o tablas de las que queramos sacar los datos.
- * La tercera linea podrá estar iniciada por **WHERE** o **HAVING** seguidos de la condición que le queramos dar a la consulta.
- * Otras lineas pueden comenzar por **GROUP BY** o **ORDER BY** que agruparan o ordenarán respectivamente los datos.
+ * A partir de la tercera linea se iniciará por **WHERE**, **HAVING**, **GROUP BY** o **ORDER BY** 
  
   ```ruby
   SELECT[DISTINCT] columna, columna ...
   FROM tabla, tabla ...
-  [WHERE/HAVING condición]
-  [GROUP BY/ORDER BY campo/s];
+  [WHERE condición]
+  [GROUP BY campo/s]
+  [HAVING condición]
+  [ORDER BY campo/s];
   ```
 #### Símbolos
 
 * </> Menor o mayor que
-* <= Menor o igual
-* >= Mayor o igual
+* <=/>= Menor o igual o mayor o igual
 * !< No menor que
 * !> No mayor que
 * = Igual
 * <> Distinto
+
+ ```ruby
+ SELECT name
+ FROM world
+ WHERE population = 100000 ;
+ ```
+ En esta consulta se seleccionarían aquellos países cuya población fuese igual a 100000, pero este se puede cambiar por cualquiera de los otros símbolos en función a los datos a los que quieras acceder.
 
 #### Comodines
 
@@ -72,3 +79,4 @@ Denominamos comodines a aquellos simbolos que se pueden utilizar para substituir
 * _ substituye a un único caracter ya sea número, letra, símbolo o espacio.
 * % substituye uno o varios caracteres de un valor.
 * El asterisco substituye a todos los valores de una tabla
+
