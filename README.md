@@ -102,11 +102,11 @@ Con DISTINCT podemos eliminar todos aquellos datos que aparezcan duplicados.
  WHERE name = '_%' ;
  ```
 #####  COUNT/SUM/AVG/MAX/MIN
-* COUNT (): Cuenta el número de filas devueltas en una consulta
-* SUM (): Devuelve la suma de las colúmnas especificadas.
-* AVG (): Calcula la media de las columnas especificadas.
-* MAX (): Devuelve el valor más alto de la columna.
-* MIN (): Devuelve el valor más bajo de la columna.
+* **COUNT ():** Cuenta el número de filas devueltas en una consulta
+* **SUM ():** Devuelve la suma de las colúmnas especificadas.
+* **AVG ():** Calcula la media de las columnas especificadas.
+* **MAX ():** Devuelve el valor más alto de la columna.
+* **MIN ():** Devuelve el valor más bajo de la columna.
 
 #### Clausula FROM
 Como especificamos anteriormente, FROM especificará a la consulta de que tabla debe coger los datos. Dentro de este pueden añadirse diferentes filtros
@@ -117,9 +117,9 @@ El AS se utiliza para renombrar tanto relaciones como atributos, para ello debem
 #####  JOINS
 
 Utilizams JOIN para consultas en las que necesitamos los datos de más de una tabla. Estos pueden ser de varios tipos:
-* INNER JOIN : que recoge solo aquellos elementos que no tengan valores nulos en ninguna de las tablas.
-* RIGHT JOIN: recoge solo los elementos que no tengan valores nulos en la tabla de la derecha, aunque estos si tengan valores nulos en otras.
-* LEFT JOIN: recoge solo los elementos que no tengan valores nulos en la tabla de la izquierda, aunque estos si tengan valores nulos en las otras.
+* **INNER JOIN:** que recoge solo aquellos elementos que no tengan valores nulos en ninguna de las tablas.
+* **RIGHT JOIN:** recoge solo los elementos que no tengan valores nulos en la tabla de la derecha, aunque estos si tengan valores nulos en otras.
+* **LEFT JOIN:** recoge solo los elementos que no tengan valores nulos en la tabla de la izquierda, aunque estos si tengan valores nulos en las otras.
 
 ```ruby
  SELECT actor.name
@@ -179,8 +179,8 @@ Una consulta puede estar compuesta por varias consultas, unas dentro de otras. P
 Es muy importante saber que estas van a ser leidas de "dentro hacia fuera", es decir, de la consulta anidada más interna hasta llegar a la consulta principal.
 
 #### AND y OR
-* AND: lo utilizamos como una y entre dos valores.
-* Or: lo utilizamos como una o entre dos valores.
+* **AND:** lo utilizamos como una y entre dos valores.
+* **OR:** lo utilizamos como una o entre dos valores.
 
 #### IS [NOT] NULL
 Lo utilizamos para indicar dentro de una consulta si queremos o no añadir aquellos campos con valor nulo.
