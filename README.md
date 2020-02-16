@@ -6,24 +6,13 @@
   * [Estructura básica](#Estructura-básica)
   * [Símbolos](#Símbolos)
   * [Comodines](#Comodines)
-  * [WHERE](#where)
-    * [Simbolos](#simbolos)
-    * [IN](#in)
-    * [BETWEEN](#between)
-    * [LIKE](#like)
-  * [ORDER BY](#order-by)
-  * [DISTINCT](#distinct)
-  * [HAVING](#having)
-  * [GROUP BY](#group-by)
-  * [ROUND](#round)
-  * [LENGTH](#length)
-  * [CONCAT](#concat)
-  * [SUM](#sum)
-  * [COUNT](#count)
-  * [JOIN](#join)
-    * [LEFT JOIN](#left-join)
-    * [RIGHT JOIN](#right-join)
-    * [INNER JOIN](#INNER-JOIN)
+  * [Clausula WHERE](#Clausula_WHERE)
+    * [[NOT]IN](#[NOT]IN)
+    * [[NOT]LIKE](#[NOT]LIKE)
+    * [BETWEEN](#BETWEEN)
+    * [LIMIT](#LIMIT)
+    * [CONCAT](#CONCAT)
+  
     
  ### ¿Que es SQL?
  Iniciales en inglés de Structured Query Lenguage, el SQL es un lenguaje de consulta orientado al manejo y administración de datos en una base de datos.
@@ -112,3 +101,13 @@ La consulta te mostrará los resultados entre dos valores que tu escojas.
 #####  LIMIT
 Nos permite limitar el número de resultados que queremos ofrecer.
 
+#####  CONCAT
+Nos permite encadenar los elementos que van dentro del paréntesis.En la siguiente consulta tendremos como resultado aquellos países que tengan como capital su nombre y algo más con uno o más caracteres.
+
+```ruby
+ SELECT name, capital
+ FROM world
+ WHERE capital LIKE CONCAT (name, '_%');
+ ```
+
+#####  CONCAT
