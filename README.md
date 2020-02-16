@@ -1,7 +1,8 @@
 # Apuntes-SQL
 ## Índice
 * [¿Que es SQL?](#que-es-sql)
-* [DQL (Data Query Languaje)](#DQL-(Data-Query-Languaje))
+* [DQL (Data Query Languaje)](#DQL-(Data-Query-Languaje)
+  * [Cosas a tener en cuenta](#Cosas-a-tener-en-cuenta)
   * [Estructura básica](#Estructura-básica)
   * [FROM](#from)
   * [WHERE](#where)
@@ -33,8 +34,16 @@
 * **DCL** (Data Control Language): permite crear roles, permisos e integridad referencial, además, de controlar el acceso a la base de datos.
 * **SCL** (Session Control Language): permite la gestión de una sesión de usuario.
 
- ### DQL (Data Query Languaje)
- #### Estructura básica
+### DQL (Data Query Languaje)
+
+#### Cosas a tener en cuenta
+ * Todas las consultas deben finalizar con un punto y coma.
+ * Si en select o from hay que añadir varios elementos o tablas deben separarse por comas.
+ * Debemos utilizar comillas simples para referirnos a un valor concreto de la tabla.
+ * SQL diferencia entre mayusculas y minúsculas en cuanto a un dato o valor se refiere.
+ * Para escribir los comandos utilizaremos mayúsculas.
+ 
+#### Estructura básica
  * **SELECT:** siempre será la primera fila de la consulta e indicará la columna de datos que queremos ver. Este debe de ir seguido del nombre de la columna.
  * **FROM:** siempre iniciará la segunda linea y le  dirá a la base de datos de que tabla queremos coger los datos, por lo que deberá ir precedido del nombre de la tabla o tablas de las que queramos sacar los datos.
  * La tercera linea podrá estar iniciada por **WHERE** o **HAVING** seguidos de la condición que le queramos dar a la consulta.
