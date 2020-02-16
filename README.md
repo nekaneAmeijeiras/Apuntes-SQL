@@ -86,3 +86,16 @@ Denominamos comodines a aquellos simbolos que se pueden utilizar para substituir
  WHERE name = '_%' ;
  ```
  En esta consulta seleccionaríamos aquellos paises con un min de un caracter y un máximo ilimitado en función de cual sea el pais dentro de la tabla con mayor cantidad de caracteres.
+ 
+#### Clausula WHERE
+La clausula WHERE se va a componer de las condiciones que nosotros queramos especificar en la consulta, y para eso necesitaremos los siguientes filtros.
+
+#####  [NOT] IN 
+Comprueba si un elemento está dentro de una lista de elementos o no.
+
+```ruby
+ SELECT name
+ FROM world
+ WHERE name [NOT]IN ('Francia','España') ;
+ ```
+Comprobará si España y Francia forman parte de los países contenidos en la tabla
