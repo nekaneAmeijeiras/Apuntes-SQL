@@ -1,7 +1,7 @@
 # Apuntes-SQL
 ## Índice
 * [¿Que es SQL?](#que-es-sql)
-* [DQL (Data Query Languaje)](#DQL-(Data-Query-Languaje)
+* [DQL (Data Query Languaje)](#DQL-(Data-Query-Languaje))
   * [Cosas a tener en cuenta](#Cosas-a-tener-en-cuenta)
   * [Estructura básica](#Estructura-básica)
   * [FROM](#from)
