@@ -72,4 +72,4 @@
 Denominamos comodines a aquellos simbolos que se pueden utilizar para substituir a algún valor o parte de este.
 * _ substituye a un único caracter ya sea número, letra, símbolo o espacio.
 * % substituye uno o varios caracteres de un valor.
-* * substituye a todos los valores de la tabla
+* El asterisco substituye a todos los valores de una tabla
