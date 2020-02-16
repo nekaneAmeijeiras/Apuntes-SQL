@@ -10,12 +10,19 @@
     * [DISTINCT](#DISTINCT)
     * [COUNT/SUM/AVG/MAX/MIN](#COUNT/SUM/AVG/MAX/MIN)
     * [JOINS](#JOINS)
+  * [Clausula FROM](#Clausula_FROM)
+    * [AS](#AS)
+    * [JOIN](#JOIN)
   * [Clausula WHERE](#Clausula_WHERE)
     * [[NOT]IN](#[NOT]IN)
     * [[NOT]LIKE](#[NOT]LIKE)
     * [BETWEEN](#BETWEEN)
     * [LIMIT](#LIMIT)
     * [CONCAT](#CONCAT)
+  * [Agrupación de filas](#Agrupación_de_filas)
+    * [GROUP BY](#DISTINCT)
+    * [HAVING](#COUNT/SUM/AVG/MAX/MIN)
+  * [Clausula ORDER BY](#Clausula_ORDER_BY) 
   
     
  ### ¿Que es SQL?
@@ -153,3 +160,13 @@ Nos permite encadenar los elementos que van dentro del paréntesis.En la siguien
  WHERE capital LIKE CONCAT (name, '_%');
  ```
 
+#### Agrupación de filas
+
+#####  GROUP BY
+Reorganiza el sentido lógico de la tabla, formando grupos en los cuales todas las filas tengan un mismo valor. Con esta clausula debemos especificar los nombres de las colúmnas que aparecen en SELECT.
+
+#####  HAVING
+La clausula HAVING funciona en cada grupo como WHERE en cada fila.
+
+#### Clausula ORDER BY
+Esta clausula puede ordenar los valores de manera ascendente o descendente (ASC/DESC). Se debe poner al final de la consulta.
