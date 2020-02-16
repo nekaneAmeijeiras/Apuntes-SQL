@@ -2,8 +2,7 @@
 ## Índice
 * [¿Que es SQL?](#que-es-sql)
 * [DQL (Data Query Languaje)](#DQL-(Data-Query-Languaje))
-* [Clausulas SQL](#clausulas-sql)
-  * [SELECT](#select)
+  * [Estructura básica](#Estructura-básica)
   * [FROM](#from)
   * [WHERE](#where)
     * [Simbolos](#simbolos)
@@ -35,4 +34,16 @@
 * **SCL** (Session Control Language): permite la gestión de una sesión de usuario.
 
  ### DQL (Data Query Languaje)
+ #### Estructura básica
+ * **SELECT:** siempre será la primera fila de la consulta e indicará la columna de datos que queremos ver. Este debe de ir seguido del nombre de la columna.
+ * **FROM:** siempre iniciará la segunda linea y le  dirá a la base de datos de que tabla queremos coger los datos, por lo que deberá ir precedido del nombre de la tabla o tablas de las que queramos sacar los datos.
+ * La tercera linea podrá estar iniciada por **WHERE** o **HAVING** seguidos de la condición que le queramos dar a la consulta.
+ * Otras lineas pueden comenzar por **GROUP BY** o **ORDER BY** que agruparan o ordenarán respectivamente los datos.
  
+  ```ruby
+  SELECT[DISTINCT] columna, columna ...
+  FROM tabla, tabla ...
+  [WHERE/HAVING condición]
+  [GROUP BY/ORDER BY campo/s]
+  
+  ```
