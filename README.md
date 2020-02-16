@@ -6,6 +6,10 @@
   * [Estructura básica](#Estructura-básica)
   * [Símbolos](#Símbolos)
   * [Comodines](#Comodines)
+  * [Clausula SELECT](#Clausula_SELECT)
+    * [DISTINCT](#DISTINCT)
+    * [COUNT/SUM/AVG/MAX/MIN](#COUNT/SUM/AVG/MAX/MIN)
+    * [JOINS](#JOINS)
   * [Clausula WHERE](#Clausula_WHERE)
     * [[NOT]IN](#[NOT]IN)
     * [[NOT]LIKE](#[NOT]LIKE)
@@ -76,8 +80,47 @@ Denominamos comodines a aquellos simbolos que se pueden utilizar para substituir
  ```
  En esta consulta seleccionaríamos aquellos paises con un min de un caracter y un máximo ilimitado en función de cual sea el pais dentro de la tabla con mayor cantidad de caracteres.
  
+#### Clausula SELECT
+Como dijimos anteriormente, la clausula SELECT nos mostrará la columna de datos que pongamos después de este. Además, podemos añadir algunos filtros
+
+#####  DISTINCT
+Con DISTINCT podemos eliminar todos aquellos datos que aparezcan duplicados.
+
+```ruby
+ SELECT DISTINCT name
+ FROM world
+ WHERE name = '_%' ;
+ ```
+#####  COUNT/SUM/AVG/MAX/MIN
+* COUNT (): Cuenta el número de filas devueltas en una consulta
+* SUM (): Devuelve la suma de las colúmnas especificadas.
+* AVG (): Calcula la media de las columnas especificadas.
+* MAX (): Devuelve el valor más alto de la columna.
+* MIN (): Devuelve el valor más bajo de la columna.
+
+#### Clausula FROM
+Como especificamos anteriormente, FROM especificará a la consulta de que tabla debe coger los datos. Dentro de este pueden añadirse diferentes filtros
+
+#####  AS
+El AS se utiliza para renombrar tanto relaciones como atributos, para ello debemos poner promero el nombre antiguo seguido de AS y después el nombre nuevo. Esta también puede aparecer en SELECT.
+
+#####  JOINS
+
+Utilizams JOIN para consultas en las que necesitamos los datos de más de una tabla. Estos pueden ser de varios tipos:
+* INNER JOIN : que recoge solo aquellos elementos que no tengan valores nulos en ninguna de las tablas.
+* RIGHT JOIN: recoge solo los elementos que no tengan valores nulos en la tabla de la derecha, aunque estos si tengan valores nulos en otras.
+* LEFT JOIN: recoge solo los elementos que no tengan valores nulos en la tabla de la izquierda, aunque estos si tengan valores nulos en las otras.
+
+```ruby
+ SELECT actor.name
+ FROM movie INNER JOIN casting ON movie.id=casting.movieid
+            INER JOIN actor ON actor.id=casting.actorid
+ WHERE movie.title='Tokyo Story' ;
+ ```
+ 
 #### Clausula WHERE
 La clausula WHERE se va a componer de las condiciones que nosotros queramos especificar en la consulta, y para eso necesitaremos los siguientes filtros.
+
 
 #####  [NOT] IN 
 Comprueba si un elemento está dentro de una lista de elementos o no.Para eso los valores deben encontrarse dentro del paréntesis como se puede ver en el siguiente ejemplo.
@@ -110,4 +153,3 @@ Nos permite encadenar los elementos que van dentro del paréntesis.En la siguien
  WHERE capital LIKE CONCAT (name, '_%');
  ```
 
-#####  CONCAT
