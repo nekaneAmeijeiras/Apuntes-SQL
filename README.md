@@ -91,11 +91,24 @@ Denominamos comodines a aquellos simbolos que se pueden utilizar para substituir
 La clausula WHERE se va a componer de las condiciones que nosotros queramos especificar en la consulta, y para eso necesitaremos los siguientes filtros.
 
 #####  [NOT] IN 
-Comprueba si un elemento está dentro de una lista de elementos o no.
+Comprueba si un elemento está dentro de una lista de elementos o no.Para eso los valores deben encontrarse dentro del paréntesis como se puede ver en el siguiente ejemplo.
 
 ```ruby
  SELECT name
  FROM world
  WHERE name [NOT]IN ('Francia','España') ;
  ```
-Comprobará si España y Francia forman parte de los países contenidos en la tabla
+#####  [NOT] LIKE
+Compara una colúmna tipo caracter con una columna de caracteres.
+
+#####  BETWEEN
+La consulta te mostrará los resultados entre dos valores que tu escojas.
+```ruby
+ SELECT name, population
+ FROM world
+ WHERE population BETWEEN 10000 AND 12000;
+ ```
+
+#####  LIMIT
+Nos permite limitar el número de resultados que queremos ofrecer.
+
