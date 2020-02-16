@@ -80,3 +80,9 @@ Denominamos comodines a aquellos simbolos que se pueden utilizar para substituir
 * % substituye uno o varios caracteres de un valor.
 * El asterisco substituye a todos los valores de una tabla
 
+```ruby
+ SELECT name
+ FROM world
+ WHERE name = '_%' ;
+ ```
+ En esta consulta seleccionaríamos aquellos paises con un min de un caracter y un máximo ilimitado en función de cual sea el pais dentro de la tabla con mayor cantidad de caracteres.
