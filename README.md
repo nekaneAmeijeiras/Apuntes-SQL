@@ -58,8 +58,7 @@
   ```
 #### Símbolos
 
-* < Menor que
-* > Mayor que
+* </> Menor o mayor que
 * <= Menor o igual
 * >= Mayor o igual
 * !< No menor que
