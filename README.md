@@ -22,7 +22,10 @@
   * [Agrupación de filas](#Agrupación_de_filas)
     * [GROUP BY](#DISTINCT)
     * [HAVING](#COUNT/SUM/AVG/MAX/MIN)
-  * [Clausula ORDER BY](#Clausula_ORDER_BY) 
+  * [Clausula ORDER BY](#Clausula_ORDER_BY)
+  * [Consultas anidadas](#Consultas_anidadas) 
+  * [AND y OR](#AND_y_OR)
+  * [IS[NOT]NULL](#IS[NOT]NULL) 
   
     
  ### ¿Que es SQL?
@@ -170,3 +173,14 @@ La clausula HAVING funciona en cada grupo como WHERE en cada fila.
 
 #### Clausula ORDER BY
 Esta clausula puede ordenar los valores de manera ascendente o descendente (ASC/DESC). Se debe poner al final de la consulta.
+
+#### Consultas anidadas
+Una consulta puede estar compuesta por varias consultas, unas dentro de otras. Para hacer saber la SQL que existe una consulta anidada esta deberá estar puesta entre parentesis.
+Es muy importante saber que estas van a ser leidas de "dentro hacia fuera", es decir, de la consulta anidada más interna hasta llegar a la consulta principal.
+
+#### AND y OR
+* AND: lo utilizamos como una y entre dos valores.
+* Or: lo utilizamos como una o entre dos valores.
+
+#### IS [NOT] NULL
+Lo utilizamos para indicar dentro de una consulta si queremos o no añadir aquellos campos con valor nulo.
