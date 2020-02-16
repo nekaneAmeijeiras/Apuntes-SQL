@@ -44,6 +44,5 @@
   SELECT[DISTINCT] columna, columna ...
   FROM tabla, tabla ...
   [WHERE/HAVING condición]
-  [GROUP BY/ORDER BY campo/s]
-  
+  [GROUP BY/ORDER BY campo/s];
   ```
