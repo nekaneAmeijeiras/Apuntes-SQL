@@ -32,7 +32,14 @@
   * [DELETE FROM](#DELETE-FROM)
   * [Tipos de datos](#Tipos-de-datos)
 * [DDL (Data Definition Languaje)](#DQL-(Data-Definition-Languaje))
-    
+  * [CREATE](#CREATE)
+  * [Restricciones](#Restricciones)
+  * [Tipos de datos](#Tipos-de-datos)
+    * [Datos de cadena](#Datos-de-cadena)
+    * [Datos numéricos](#datos-numéricos)
+    * [Datos de fecha/hora](#datos-de-fecha/hora)
+  * [ALTER TABLE](#ALTER-TABLE)
+  
  ## ¿Que es SQL?
  Iniciales en inglés de Structured Query Lenguage, el SQL es un lenguaje de consulta orientado al manejo y administración de datos en una base de datos.
  Dentro de este podemos encotrar 6 areas diferentes que denominaremos como sublenguajes:
@@ -237,25 +244,6 @@ Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede const
 DELETE FROM world 
    WHERE continent='Europe';
  ```
- ### Tipos de datos
- Las bases de datos soportan unos datos predefinidos, en función a lo que quieras que contenga cada celda.
- 
- #### Datos de cadena:
- * **Char/character(n):** cadena de caracteres de longitud fija, con una longitud n especificada por el usuario.
- * **Varchar/character varying(n):** cadena de caracteres de longitud variable, con una longitud n especificada por el usuario.
- * **Graphics(n):** Cadena de caracteres de longitud fija con exactamente n caracteres.
- * **Vargraphics(n):** Cadena de longitud variable con hasta n caracteres.
- 
- #### Datos numéricos:
- * **Int/integer:** número entero binario.
- * **Smallint:** número entero pequeño.
- * **Decimal(p,q):** número decimal de p dígitos y signo con q dígitos a la derecha del punto decimal.
- * **Float(p):** número en coma flotante.
- 
- #### Datos de fecha/hora:
- * **Date:** fecha (aaaammdd).
- * **Time:** hora (hhmmss).
- * **Timestamp:** Combinación de fecha y hora con una precisión de microsegundos.
  
 ## DDL (Data Definition Languaje)
 Actua sobre los objetos de la base de datos (tablas).
@@ -313,7 +301,31 @@ CONSTRAIN PK-world
   FOREING KEY (Nombre_departamento)
    REFERENCES departamento;
  ```
-### ALTER
+ ### Tipos de datos
+ Las bases de datos soportan unos datos predefinidos, en función a lo que quieras que contenga cada celda.
+ 
+ #### Datos de cadena:
+ * **Char/character(n):** cadena de caracteres de longitud fija, con una longitud n especificada por el usuario.
+ * **Varchar/character varying(n):** cadena de caracteres de longitud variable, con una longitud n especificada por el usuario.
+ * **Graphics(n):** Cadena de caracteres de longitud fija con exactamente n caracteres.
+ * **Vargraphics(n):** Cadena de longitud variable con hasta n caracteres.
+ 
+ #### Datos numéricos:
+ * **Int/integer:** número entero binario.
+ * **Smallint:** número entero pequeño.
+ * **Decimal(p,q):** número decimal de p dígitos y signo con q dígitos a la derecha del punto decimal.
+ * **Float(p):** número en coma flotante.
+ 
+ #### Datos de fecha/hora:
+ * **Date:** fecha (aaaammdd).
+ * **Time:** hora (hhmmss).
+ * **Timestamp:** Combinación de fecha y hora con una precisión de microsegundos.
+ 
+### ALTER TABLE
+Da la posibilidad de alterar o eliminar una tabla ya existente.
+```ruby
+ALTER TABLE <nombre-de-tabla>
+  ADD <nombre-de-campo>    <tipo-de-datos>
+  DROP <nombre-de-tabla>;
+ ```
 
-### DROP
-Elimina la estructura de una tabla ya creada.
