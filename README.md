@@ -27,6 +27,10 @@
   * [AND y OR](#AND_y_OR)
   * [IS[NOT]NULL](#IS[NOT]NULL) 
 * [DML (Data Manipulation Languaje)](#DQL-(Data-Manipulation-Languaje))
+  * [INSERT INTO](#INSERT-INTO)
+  * [UPDATE](#UPDATE)
+  * [DELETE FROM](#DELETE-FROM)
+  * [Tipos de datos](#Tipos-de-datos)
 * [DDL (Data Definition Languaje)](#DQL-(Data-Definition-Languaje))
     
  ## ¿Que es SQL?
