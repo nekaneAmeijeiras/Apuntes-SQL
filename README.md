@@ -315,6 +315,7 @@ CONSTRAIN PK-world
  * **Smallint:** número entero pequeño.
  * **Decimal(p,q):** número decimal de p dígitos y signo con q dígitos a la derecha del punto decimal.
  * **Float(p):** número en coma flotante.
+ * **Money:** cantidad monetaria.
  
  #### Datos de fecha/hora:
  * **Date:** fecha (aaaammdd).
