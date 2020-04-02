@@ -260,17 +260,20 @@ DELETE FROM world
 ## DDL (Data Definition Languaje)
 Actua sobre los objetos de la base de datos (tablas).
 
-### CREATE (USER | TABLE | DATABASE | SCHEMA)
-Mediante esta fórmula podemos crear usuarios (USER), tablas (TABLE) y bases de datos (DATABASE, más restrictivo|SCHEMA).
+### CREATE (USER | TABLE | DATABASE | SCHEMA | DOMAIN)
+Mediante esta fórmula podemos crear usuarios (USER), tablas (TABLE), bases de datos (DATABASE, más restrictivo|SCHEMA) y nombrar tipos de datos dentro de una base de datos (DOMAIN).
 
 ```ruby
 CREATE (DATABASE|SCHEMA)
   [IF NOT EXISTS] nombre-de-basedatos;
  ```
  ```ruby
+CREATE DOMAIN nombre-de-dato    tipo-de-datos(n);
+ ```
+ ```ruby
 CREATE TABLE <nombre-de-tabla>
   (<Atributo1>    <tipo-de-dato>    [NOT NULL],
-   <Atributo2>    <tipo-de-dato>    [NOT NULL],...
+   <Atributo2>    <tipo-de-dato>    [DEFAULT],...
    [PRIMARY KEY (clave-primaria)]
    [FOREING KEY (clave-foranea)
    REFERENCES (tabla-de-clave-foranea)]);
@@ -278,11 +281,39 @@ CREATE TABLE <nombre-de-tabla>
  **Ejemplo:**
 ```ruby
 CREATE TABLE grupo
-  (Nombre_grupo        VARCHAR(30),
-   Nombre_departamento VARCHAR(30),
-   Áreas               VARCHAR(30) NOT NULL,
-   Lider               CHARD(9),
+  (Nombre_grupo         VARCHAR(30),
+   Nombre_departamento  VARCHAR(30),
+   Áreas                VARCHAR(30)  NOT NULL,
+   Lider                CHARD(9),
    PRIMARY KEY (Nombre_grupo, Nombre_departamento)
    FOREING KEY (Nombre_departamento)
    REFERENCES departamento);
  ```
+### Restricciones
+#### Clave primaria
+```ruby
+CONSTRAIN <nombre-de-restricción>
+  PRIMARY KEY (<Atributos>);
+ ```
+ **Ejemplo:**
+ ```ruby
+CONSTRAIN PK-world
+  PRIMARY KEY (world.name);
+ ```
+ #### Clave foranea
+```ruby
+CONSTRAIN <nombre-de-restricción>
+  FOREING KEY (<Atributos>) 
+   REFERENCE (<Atributo-referido>)
+   <nombre-tabla-referencia>;
+ ```
+ **Ejemplo:**
+ ```ruby
+CONSTRAIN PK-world
+  FOREING KEY (Nombre_departamento)
+   REFERENCES departamento;
+ ```
+### ALTER
+
+### DROP
+Elimina la estructura de una tabla ya creada.
