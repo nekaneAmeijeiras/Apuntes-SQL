@@ -26,7 +26,8 @@
   * [Consultas anidadas](#Consultas_anidadas) 
   * [AND y OR](#AND_y_OR)
   * [IS[NOT]NULL](#IS[NOT]NULL) 
-  
+* [DML (Data Manipulation Languaje)](#DQL-(Data-Manipulation-Languaje))
+* [DDL (Data Definition Languaje)](#DQL-(Data-Definition-Languaje))
     
  ## ¿Que es SQL?
  Iniciales en inglés de Structured Query Lenguage, el SQL es un lenguaje de consulta orientado al manejo y administración de datos en una base de datos.
@@ -187,7 +188,8 @@ Lo utilizamos para indicar dentro de una consulta si queremos o no añadir aquel
 
 
 ## DML (Data Manipulation Languaje)
-Actua sobre los datos que hay dentro de los objetos
+Actua sobre los datos que hay dentro de los objetos.
+
 ### INSERT  INTO
 Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede constar de values o select como se puede ver el la fórmula y los ejemplos siguientes.
 ```ruby
@@ -206,6 +208,7 @@ Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede const
    FROM world
    WHERE continent='Europe';
  ``` 
+ 
  ### UPDATE
  Sirve para actualizar una dupla o sus atributos, es decir, sobre un dato en concreto.
  ```ruby
@@ -218,6 +221,7 @@ Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede const
  UPDATE world 
    SET continent='Africa';
  ```
+ 
   ### DELETE FROM
  Sirve para eliminar duplas.
  ```ruby
@@ -229,4 +233,28 @@ Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede const
 DELETE FROM world 
    WHERE continent='Europe';
  ```
+ ### Tipos de datos
+ Las bases de datos soportan unos datos predefinidos, en función a lo que quieras que contenga cada celda.
+ 
+ #### Datos de cadena:
+ * **Char/character(n):** cadena de caracteres de longitud fija, con una longitud n especificada por el usuario.
+ * **Varchar/character varying(n):** cadena de caracteres de longitud variable, con una longitud n especificada por el usuario.
+ * **Graphics(n):** Cadena de caracteres de longitud fija con exactamente n caracteres.
+ * **Vargraphics(n):** Cadena de longitud variable con hasta n caracteres.
+ 
+ #### Datos numéricos:
+ * **Int/integer:** número entero binario.
+ * **Smallint:** número entero pequeño.
+ * **Decimal(p,q):** número decimal de p dígitos y signo con q dígitos a la derecha del punto decimal.
+ * **Float(p):** número en coma flotante.
+ 
+ #### Datos de fecha/hora:
+ * **Date:** fecha (aaaammdd).
+ * **Time:** hora (hhmmss).
+ * **Timestamp:** Combinación de fecha y hora con una precisión de microsegundos.
+ 
 ## DDL (Data Definition Languaje)
+Actua sobre los objetos de la base de datos (tablas).
+
+### CREATE (USER | TABLE | DATABASE | SCHEMA)
+Mediante esta fórmula podemos crear usuarios (USER), tablas (TABLE) y bases de datos (DATABASE, más restrictivo|SCHEMA).
