@@ -190,7 +190,12 @@ Lo utilizamos para indicar dentro de una consulta si queremos o no añadir aquel
 Actua sobre los datos que hay dentro de los objetos
 #### INSERT INTO
 Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede constar de values o select como se puede ver el la fórmula y los ejemplos siguientes.
-
+```ruby
+ INSERT INTO <nombre-de-tabla> [(<Atributo1>, <Atributo2>, ...)]
+   (VALUES (<valor1A>, <valor2A>, ...), (<valor1B>, <valor2B>, ...)
+   ...|SELECT...);
+ ```
+**Ejemplos:**
 ```ruby
  INSERT INTO world (name, continent, area)
    VALUES ('Spain', 'Europe', 100), ('Portugal','Europe',10);
