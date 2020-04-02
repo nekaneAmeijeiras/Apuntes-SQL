@@ -186,9 +186,9 @@ Es muy importante saber que estas van a ser leidas de "dentro hacia fuera", es d
 Lo utilizamos para indicar dentro de una consulta si queremos o no añadir aquellos campos con valor nulo.
 
 
-* [DML (Data Manipulation Languaje)](#DML-(Data-Manipulation-Languaje))
+### DML (Data Manipulation Languaje)
 Actua sobre los datos que hay dentro de los objetos
-### INSERT INTO
+#### INSERT INTO
 Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede constar de values o select como se puede ver el la fórmula y los ejemplos siguientes.
 
 ```ruby
@@ -201,4 +201,4 @@ Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede const
    FROM world
    WHERE continent='Europe';
  ``` 
-* [DDL (Data Definition Languaje)](#DDL-(Data-Definition-Languaje))
+### DDL (Data Definition Languaje)
