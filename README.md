@@ -38,7 +38,7 @@
 * **DCL** (Data Control Language): permite crear roles, permisos e integridad referencial, además, de controlar el acceso a la base de datos.
 * **SCL** (Session Control Language): permite la gestión de una sesión de usuario.
 
-### DQL (Data Query Languaje)
+## DQL (Data Query Languaje)
 
 #### Cosas a tener en cuenta
  * Todas las consultas deben finalizar con un punto y coma.
@@ -186,7 +186,7 @@ Es muy importante saber que estas van a ser leidas de "dentro hacia fuera", es d
 Lo utilizamos para indicar dentro de una consulta si queremos o no añadir aquellos campos con valor nulo.
 
 
-### DML (Data Manipulation Languaje)
+## DML (Data Manipulation Languaje)
 Actua sobre los datos que hay dentro de los objetos
 #### INSERT INTO
 Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede constar de values o select como se puede ver el la fórmula y los ejemplos siguientes.
@@ -201,4 +201,4 @@ Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede const
    FROM world
    WHERE continent='Europe';
  ``` 
-### DDL (Data Definition Languaje)
+## DDL (Data Definition Languaje)
