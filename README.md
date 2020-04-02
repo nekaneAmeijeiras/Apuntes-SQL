@@ -262,3 +262,27 @@ Actua sobre los objetos de la base de datos (tablas).
 
 ### CREATE (USER | TABLE | DATABASE | SCHEMA)
 Mediante esta fórmula podemos crear usuarios (USER), tablas (TABLE) y bases de datos (DATABASE, más restrictivo|SCHEMA).
+
+```ruby
+CREATE (DATABASE|SCHEMA)
+  [IF NOT EXISTS] nombre-de-basedatos;
+ ```
+ ```ruby
+CREATE TABLE <nombre-de-tabla>
+  (<Atributo1>    <tipo-de-dato>    [NOT NULL],
+   <Atributo2>    <tipo-de-dato>    [NOT NULL],...
+   [PRIMARY KEY (clave-primaria)]
+   [FOREING KEY (clave-foranea)
+   REFERENCES (tabla-de-clave-foranea)]);
+ ```
+ **Ejemplo:**
+```ruby
+CREATE TABLE grupo
+  (Nombre_grupo        VARCHAR(30),
+   Nombre_departamento VARCHAR(30),
+   Áreas               VARCHAR(30) NOT NULL,
+   Lider               CHARD(9),
+   PRIMARY KEY (Nombre_grupo, Nombre_departamento)
+   FOREING KEY (Nombre_departamento)
+   REFERENCES departamento);
+ ```
