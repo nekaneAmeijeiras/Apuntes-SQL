@@ -28,7 +28,7 @@
   * [IS[NOT]NULL](#IS[NOT]NULL) 
   
     
- ### ¿Que es SQL?
+ ## ¿Que es SQL?
  Iniciales en inglés de Structured Query Lenguage, el SQL es un lenguaje de consulta orientado al manejo y administración de datos en una base de datos.
  Dentro de este podemos encotrar 6 areas diferentes que denominaremos como sublenguajes:
 * **DQL** (Data Query Language): permite a los usuarios la consulta y manipulación de datos.
