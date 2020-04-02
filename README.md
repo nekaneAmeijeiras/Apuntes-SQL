@@ -188,7 +188,7 @@ Lo utilizamos para indicar dentro de una consulta si queremos o no añadir aquel
 
 ## DML (Data Manipulation Languaje)
 Actua sobre los datos que hay dentro de los objetos
-#### INSERT INTO
+### INSERT  INTO
 Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede constar de values o select como se puede ver el la fórmula y los ejemplos siguientes.
 ```ruby
  INSERT INTO <nombre-de-tabla> [(<Atributo1>, <Atributo2>, ...)]
