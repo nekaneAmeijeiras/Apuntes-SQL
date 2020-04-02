@@ -206,4 +206,27 @@ Sirve para insertar duplas nuevas dentro de una base de datos. Este, puede const
    FROM world
    WHERE continent='Europe';
  ``` 
+ ### UPDATE
+ Sirve para actualizar una dupla o sus atributos, es decir, sobre un dato en concreto.
+ ```ruby
+ UPDATE <nombre-de-tabla> 
+   SET <Atributo1>= <Valor1>,
+   <Atributo2>= <Valor2>;
+ ```
+**Ejemplo:**
+```ruby
+ UPDATE world 
+   SET continent='Africa';
+ ```
+  ### DELETE FROM
+ Sirve para eliminar duplas.
+ ```ruby
+ DELETE FROM <nombre-de-tabla> 
+   [WHERE <predicado>];
+ ```
+**Ejemplo:**
+```ruby
+DELETE FROM world 
+   WHERE continent='Europe';
+ ```
 ## DDL (Data Definition Languaje)
