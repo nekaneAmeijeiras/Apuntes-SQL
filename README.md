@@ -40,14 +40,14 @@
 
 ## DQL (Data Query Languaje)
 
-#### Cosas a tener en cuenta
+### Cosas a tener en cuenta
  * Todas las consultas deben finalizar con un punto y coma.
  * Si en select o from hay que añadir varios elementos o tablas deben separarse por comas.
  * Debemos utilizar comillas simples para referirnos a un valor concreto de la tabla.
  * SQL diferencia entre mayusculas y minúsculas en cuanto a un dato o valor se refiere.
  * Para escribir los comandos utilizaremos mayúsculas.
  
-#### Estructura básica
+### Estructura básica
  * **SELECT:** siempre será la primera fila de la consulta e indicará la columna de datos que queremos ver. Este debe de ir seguido del nombre de la columna.
  * **FROM:** siempre iniciará la segunda linea y le  dirá a la base de datos de que tabla queremos coger los datos, por lo que deberá ir precedido del nombre de la tabla o tablas de las que queramos sacar los datos.
  * A partir de la tercera linea se iniciará por **WHERE**, **HAVING**, **GROUP BY** o **ORDER BY** 
@@ -60,7 +60,7 @@
   [HAVING condición]
   [ORDER BY campo/s];
   ```
-#### Símbolos
+### Símbolos
 
 * </> Menor o mayor que
 * <=/>= Menor o igual o mayor o igual
@@ -76,7 +76,7 @@
  ```
  En esta consulta se seleccionarían aquellos países cuya población fuese igual a 100000, pero este se puede cambiar por cualquiera de los otros símbolos en función a los datos a los que quieras acceder.
 
-#### Comodines
+### Comodines
 
 Denominamos comodines a aquellos simbolos que se pueden utilizar para substituir a algún valor o parte de este.
 * _ substituye a un único caracter ya sea número, letra, símbolo o espacio.
@@ -90,7 +90,7 @@ Denominamos comodines a aquellos simbolos que se pueden utilizar para substituir
  ```
  En esta consulta seleccionaríamos aquellos paises con un min de un caracter y un máximo ilimitado en función de cual sea el pais dentro de la tabla con mayor cantidad de caracteres.
  
-#### Clausula SELECT
+### Clausula SELECT
 Como dijimos anteriormente, la clausula SELECT nos mostrará la columna de datos que pongamos después de este. Además, podemos añadir algunos filtros
 
 #####  DISTINCT
@@ -108,7 +108,7 @@ Con DISTINCT podemos eliminar todos aquellos datos que aparezcan duplicados.
 * **MAX ():** Devuelve el valor más alto de la columna.
 * **MIN ():** Devuelve el valor más bajo de la columna.
 
-#### Clausula FROM
+### Clausula FROM
 Como especificamos anteriormente, FROM especificará a la consulta de que tabla debe coger los datos. Dentro de este pueden añadirse diferentes filtros
 
 #####  AS
@@ -128,7 +128,7 @@ Utilizams JOIN para consultas en las que necesitamos los datos de más de una ta
  WHERE movie.title='Tokyo Story' ;
  ```
  
-#### Clausula WHERE
+### Clausula WHERE
 La clausula WHERE se va a componer de las condiciones que nosotros queramos especificar en la consulta, y para eso necesitaremos los siguientes filtros.
 
 
@@ -163,7 +163,7 @@ Nos permite encadenar los elementos que van dentro del paréntesis.En la siguien
  WHERE capital LIKE CONCAT (name, '_%');
  ```
 
-#### Agrupación de filas
+### Agrupación de filas
 
 #####  GROUP BY
 Reorganiza el sentido lógico de la tabla, formando grupos en los cuales todas las filas tengan un mismo valor. Con esta clausula debemos especificar los nombres de las colúmnas que aparecen en SELECT.
@@ -171,18 +171,18 @@ Reorganiza el sentido lógico de la tabla, formando grupos en los cuales todas l
 #####  HAVING
 La clausula HAVING funciona en cada grupo como WHERE en cada fila.
 
-#### Clausula ORDER BY
+### Clausula ORDER BY
 Esta clausula puede ordenar los valores de manera ascendente o descendente (ASC/DESC). Se debe poner al final de la consulta.
 
-#### Consultas anidadas
+### Consultas anidadas
 Una consulta puede estar compuesta por varias consultas, unas dentro de otras. Para hacer saber la SQL que existe una consulta anidada esta deberá estar puesta entre parentesis.
 Es muy importante saber que estas van a ser leidas de "dentro hacia fuera", es decir, de la consulta anidada más interna hasta llegar a la consulta principal.
 
-#### AND y OR
+### AND y OR
 * **AND:** lo utilizamos como una y entre dos valores.
 * **OR:** lo utilizamos como una o entre dos valores.
 
-#### IS [NOT] NULL
+### IS [NOT] NULL
 Lo utilizamos para indicar dentro de una consulta si queremos o no añadir aquellos campos con valor nulo.
 
 
