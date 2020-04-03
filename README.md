@@ -343,7 +343,7 @@ ALTER TABLE <nombre-de-tabla>
  
  Como podemos ver en la imagen siguiente, escogemos el más pesado que cuenta con el paquete al completo.
  
- ![captura2](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%201.PNG)
+ ![captura2](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%202.PNG)
  
 Para que comience la descarga debemos presionar sobre lo que dice "No thanks, just start my download" y esperaremos hasta que esta finalice.
  
