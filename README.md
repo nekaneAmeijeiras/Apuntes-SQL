@@ -331,6 +331,9 @@ ALTER TABLE <nombre-de-tabla>
  ```
 
  ## Instalación de MySQL
+ 
+ ### Descarga
+ 
  Para realizar la instalación de MySQL, primero debemos ir a su página oficial en el apartado de descargas.
  
  ![captura1](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%201.PNG)
@@ -339,8 +342,58 @@ ALTER TABLE <nombre-de-tabla>
  
  ![captura2](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%201.PNG)
  
- Comenzará su descarga de manera normal y esperaremos hasta que esta finalice.
+Para que comience la descarga debemos presionar sobre lo que dice "No thanks, just start my download" y esperaremos hasta que esta finalice.
  
  ![captura3](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%203.PNG)
  
+ ### Instalación
  
+ Una vez descargado debemos pinchar para comenzar la instalación e  ir escogiendo los diferente apartados que se verán en las siguientes imágenes.
+ 
+![captura4](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%204.PNG)
+ 
+![captura5](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%205.PNG)
+ 
+![captura6](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%206.PNG)
+
+![captura7](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%207.PNG)
+
+![captura8](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%208.PNG)
+
+![captura9](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%209.PNG)
+
+![captura10](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2010.PNG)
+
+![captura11](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2011.PNG)
+
+![captura12](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2012.PNG)
+
+![captura13](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2013.PNG)
+
+![captura14](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2014.PNG)
+
+![captura15](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2015.PNG)
+
+![captura16](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2016.PNG)
+
+![captura17](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2017.PNG)
+
+![captura18](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2018.PNG)
+
+![captura19](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2019.PNG)
+
+![captura20](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2020.PNG)
+
+![captura21](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2021.PNG)
+
+![captura22](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2022.PNG)
+
+![captura23](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2023.PNG)
+
+![captura24](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2024.PNG)
+
+![captura25](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2025.PNG)
+
+![captura26](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2026.PNG)
+
+![captura27](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2027.PNG)
