@@ -39,6 +39,9 @@
     * [Datos numéricos](#datos-numéricos)
     * [Datos de fecha/hora](#datos-de-fecha/hora)
   * [ALTER TABLE](#ALTER-TABLE)
+ * [Instalación de MySQL](#Instalación-de-MySQL)
+  * [Descarga](#Descarga)
+  * [Instalación](#Instalación)
   
  ## ¿Que es SQL?
  Iniciales en inglés de Structured Query Lenguage, el SQL es un lenguaje de consulta orientado al manejo y administración de datos en una base de datos.
@@ -355,6 +358,8 @@ Para que comience la descarga debemos presionar sobre lo que dice "No thanks, ju
 ![captura5](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%205.PNG)
  
 ![captura6](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%206.PNG)
+
+Como podemos ver se nos abrirá una ventana donde elegiremos la opción de "Developer Default" que instalará todo automáticamente.
 
 ![captura7](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%207.PNG)
 
