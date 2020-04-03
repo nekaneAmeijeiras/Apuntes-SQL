@@ -377,7 +377,11 @@ Como podemos ver se nos abrirá una ventana donde elegiremos la opción de "Deve
 
 ![captura14](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2014.PNG)
 
+En la siguiente imagen se puede ver que escogimos "Dedicate computer" ya que en este caso el programa se instaló en una máquina virtual. En otro caso debemos escoger "Development computer" para equipos en el que esté instalado en servidor SQL o la opcoción "Dedicated computer" para equipos con funcines de servidor.
+
 ![captura15](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2015.PNG)
+
+Después, escogeremos la opcioón de poner contraseña que nos recomienda el programa donde pondremos una y añadiremos nuevos usuarios como se puede ver en las siguentes imágenes.
 
 ![captura16](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2016.PNG)
 
@@ -400,5 +404,7 @@ Como podemos ver se nos abrirá una ventana donde elegiremos la opción de "Deve
 ![captura25](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2025.PNG)
 
 ![captura26](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2026.PNG)
+
+Como podemos ver al acabar la instalación se nos abre una ventana de comandos para empezar a trabajar con estos.
 
 ![captura27](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%2027.PNG)
