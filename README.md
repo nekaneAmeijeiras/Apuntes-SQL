@@ -330,3 +330,5 @@ ALTER TABLE <nombre-de-tabla>
   DROP <nombre-de-tabla>;
  ```
 
+ ## Instalación de MySQL
+ ![captura1](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%201.PNG)
