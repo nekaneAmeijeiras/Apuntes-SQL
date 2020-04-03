@@ -331,4 +331,10 @@ ALTER TABLE <nombre-de-tabla>
  ```
 
  ## Instalación de MySQL
+ Para realizar la instalación de MySQL, primero debemos ir a su página oficial en el apartado de descargas.
  ![captura1](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%201.PNG)
+ Como podemos ver en la imagen siguiente, escogemos el más pesado que cuenta con el paquete al completo.
+ ![captura2](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%201.PNG)
+ Comenzará su descarga de manera normal y esperaremos hasta que esta finalice.
+ ![captura3](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/Captura%203.PNG)
+ 
