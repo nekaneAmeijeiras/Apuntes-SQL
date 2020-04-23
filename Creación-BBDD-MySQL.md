@@ -1,5 +1,6 @@
 # Creación-BBDD-MySQL
 ## Índice
+* [Comandos para ver la estrucutra de una BBDD en la consola](#Comandos-para-ver-la-estructura-de-una-BBDD-en-la-consola)
 * [Ejercicio DDL 1 Proxecto Investigación](#Ejercicio-DDL-1-Proxecto-Investigación)
   * [Implementación en MySQL Proxecto Investigación](#Implementación-en-MySQL-Proxecto-Investigación)
   * [Vista gráfica Proxecto Investigación](#Vista-gráfica-Proxecto-Investigación)
@@ -8,6 +9,16 @@
   * [Vista gráfica Naves Espaciales](#Vista-gráfica-Naves-Espaciales)
 
 
+ ## Comandos para ver la estrucutra de una BBDD en la consola
+ 
+ Para ver todas las tablas de las que se compone una Base de Datos utilizaremos en comando `SHOW` más el nombre de la base de datos.
+ 
+  ![capturaComandos1](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%208.PNG)
+  
+ Y para ver todos los componentes de una tabla en concreto utilizaremos el comando `DESCRIBE` más el nombre de la tabla que queremos ver.
+ 
+  ![capturaComandos2](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%209.PNG)
+ 
  ## Ejercicio DDL 1 Proxecto Investigación
  
  A partir de este esquema relacional, realizaremos su implementación en MySQL.
