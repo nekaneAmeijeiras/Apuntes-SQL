@@ -2,10 +2,10 @@
 ## Índice
 * [Ejercicio DDL 1 Proxecto Investigación](#Ejercicio-DDL-1-Proxecto-Investigación)
   * [Implementación en MySQL Proxecto Investigación](#Implementación-en-MySQL-Proxecto-Investigación)
-  * [Vista "Gráfica" de Proxecto Investigación](#Vista-"Gráfica"-de-Proxecto-Investigación)
+  * [Vista "Gráfica" de BBDD Proxecto Investigación](#Vista-"Gráfica"-de-BBDD-Proxecto-Investigación)
 * [Ejercicio DDL 2 Naves Espaciales](#Ejercicio-DDL-2-Naves-Espaciales)
   * [Implementación en MySQL Naves Espaciales](#Implementación-en-MySQL-Naves-Espaciales)
-  * [Vista "Gráfica" de Naves Espaciales](#Vista-"Gráfica"-de-Naves-Espaciales)
+  * [Vista "Gráfica" de BBDD Naves Espaciales](#Vista-"Gráfica"-de-BBDD-Naves-Espaciales)
 
 
  ## Ejercicio DDL 1 Proxecto Investigación
@@ -80,7 +80,7 @@ Utilizamos `ALTER TABLE` para añadir la clave foranea en en habita que proviene
 
 ![capturaEjNE7](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%207.PNG)
 
-### Vista "Gráfica" de Naves Espaciales
+### Vista "Gráfica" de BBDD Naves Espaciales
 
 En la siguiente imágen se pueden ver todas las tablas de las que se compone la Base de Datos Proxectos_investigación, y más abajo cada una de las tablas y sus componentes.
 
