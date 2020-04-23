@@ -1,11 +1,11 @@
 # Creación-BBDD-MySQL
 ## Índice
 * [Ejercicio DDL 1 Proxecto Investigación](#Ejercicio-DDL-1-Proxecto-Investigación)
-  * [Implementación en MySQL](#Implementación-en-MySQL)
-  * [Vista "Gráfica" de la Base de Datos](#Vista-"Gráfica"-de-la-Base-de-Datos)
+  * [Implementación en MySQL (Proxecto Investigación)](#Implementación-en-MySQL-(Proxecto-Investigación))
+  * [Vista "Gráfica" de Proxecto Investigación](#Vista-"Gráfica"-de-Proxecto-Investigación)
 * [Ejercicio DDL 2 Naves Espaciales](#Ejercicio-DDL-2-Naves-Espaciales)
-  * [Implementación en MySQL](#Implementación-en-MySQL)
-  * [Vista "Gráfica" de la Base de Datos](#Vista-"Gráfica"-de-la-Base-de-Datos)
+  * [Implementación en MySQL(Naves Espaciales)](#Implementación-en-MySQL-(Naves-Espaciales))
+  * [Vista "Gráfica" de Naves Espaciales](#Vista-"Gráfica"-de-Naves-Espaciales)
 
 
  ## Ejercicio DDL 1 Proxecto Investigación
