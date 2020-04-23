@@ -3,7 +3,7 @@
 * [Ejercicio DDL 1 Proxecto Investigación](#Ejercicio-DDL-1-Proxecto-Investigación)
   * [Implementación en MySQL](#Implementación-en-MySQL)
   * [Vista "Gráfica" de la Base de Datos](#Vista-"Gráfica"-de-la-Base-de-Datos)
-* [Ejercicio Naves Espaciales](#Ejercicio-Naves-Espaciales)
+* [Ejercicio DDL 2 Naves Espaciales](#Ejercicio-DDL-2-Naves-Espaciales)
   * [Implementación en MySQL](#Implementación-en-MySQL)
   * [Vista "Gráfica" de la Base de Datos](#Vista-"Gráfica"-de-la-Base-de-Datos)
 
@@ -52,3 +52,42 @@ En la siguiente imágen se pueden ver todas las tablas de las que se compone la 
 ![capturaEjPI10](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Proxectos_Investigaci%C3%B3n/Captura%2010.PNG)
 
 ![capturaEjPI11](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Proxectos_Investigaci%C3%B3n/Captura%2011.PNG)
+
+
+## Ejercicio DDL 2 Naves Espaciales
+
+A partir de este esquema relacional, realizaremos su implementación en MySQL.
+
+![capturaEjercicio](https://github.com/davidgchaves/first-steps-with-git-and-github-wirtz-asir1-and-dam1/blob/master/exercicios-ddl/2-naves-espaciais/img/2-naves-espaciais-relacional.jpeg)
+
+### Implementación en MySQL
+
+Como en el ejercicio anterior comenzamos creando la base de datos y posteriormente, entraremos en ella para comenzar a crear las tablas. Después, creamos respectivamente, las tablas Servizo, Dependencia, Cámara, Tripulación, Planeta, Visita, Habita y Raza.
+
+![capturaEjNE1](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%201.PNG)
+
+![capturaEjNE2](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%202.PNG)
+
+![capturaEjNE3](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%203.PNG)
+
+![capturaEjNE4](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%204.PNG)
+
+![capturaEjNE5](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%205.PNG)
+
+![capturaEjNE6](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%206.PNG)
+
+Utilizamos `ALTER TABLE` para añadir la clave foranea en en habita que proviene de raza y para añadir un comando `CHECK` en cámara.
+
+![capturaEjNE7](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%207.PNG)
+
+### Vista "Gráfica" de la Base de Datos
+
+En la siguiente imágen se pueden ver todas las tablas de las que se compone la Base de Datos Proxectos_investigación, y más abajo cada una de las tablas y sus componentes.
+
+![capturaEjNE8](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%208.PNG)
+
+![capturaEjNE9](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%209.PNG)
+
+![capturaEjNE10](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%2010.PNG)
+
+![capturaEjNE11](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%2011.PNG)
