@@ -11,7 +11,7 @@
 
  ## Comandos para ver la estrucutra de una BBDD en la consola
  
- Para ver todas las tablas de las que se compone una Base de Datos utilizaremos en comando `SHOW` más el nombre de la base de datos.
+ Para ver todas las tablas de las que se compone una Base de Datos utilizaremos en comando `SHOW TABLES`, siempre recordando que debemos estar dentro de la propia base de datos. Si ponemos el comando `SHOW DATABASE` nos mostrará todas las bases de datos que tenemos en nuestro programa.
  
   ![capturaComandos1](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%208.PNG)
   
