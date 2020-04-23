@@ -20,4 +20,6 @@ Crearemos primero la base de datos mediante el comando  `CREATE DATABASE`  y pos
 
 ![capturaEjPI3](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Proxectos_Investigaci%C3%B3n/Captura%203.PNG)
 
+Al crear la tablas departamento y grupo antes que profesor, debemos utilizar el  `ALTER TABLE` para añadir a estas las claves foraneas procedentes de profesor como se puede ver el la siguiente imágen.
+
 ![capturaEjPI4](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Proxectos_Investigaci%C3%B3n/Captura%204.PNG)
