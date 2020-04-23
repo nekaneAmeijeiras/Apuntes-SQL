@@ -2,10 +2,10 @@
 ## Índice
 * [Ejercicio DDL 1 Proxecto Investigación](#Ejercicio-DDL-1-Proxecto-Investigación)
   * [Implementación en MySQL Proxecto Investigación](#Implementación-en-MySQL-Proxecto-Investigación)
-  * [Vista "gráfica" Proxecto Investigación](#Vista-"gráfica"-Proxecto-Investigación)
+  * [Vista gráfica Proxecto Investigación](#Vista-gráfica-Proxecto-Investigación)
 * [Ejercicio DDL 2 Naves Espaciales](#Ejercicio-DDL-2-Naves-Espaciales)
   * [Implementación en MySQL Naves Espaciales](#Implementación-en-MySQL-Naves-Espaciales)
-  * [Vista "gráfica" Naves Espaciales](#Vista-"gráfica"-Naves-Espaciales)
+  * [Vista gráfica Naves Espaciales](#Vista-gráfica-Naves-Espaciales)
 
 
  ## Ejercicio DDL 1 Proxecto Investigación
