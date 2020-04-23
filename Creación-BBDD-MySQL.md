@@ -41,7 +41,7 @@ Por último borramos la clave foranea de profesor mediante `ALTER TABLE` y `DROP
 ![capturaEjPI7](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Proxectos_Investigaci%C3%B3n/Captura%207.PNG)
 
 
-### Vista "Gráfica" de Proxecto Investigación
+### Vista "gráfica" Proxecto Investigación
 
 En la siguiente imágen se pueden ver todas las tablas de las que se compone la Base de Datos Proxectos_investigación, y más abajo cada una de las tablas y sus componentes.
 
@@ -80,7 +80,7 @@ Utilizamos `ALTER TABLE` para añadir la clave foranea en en habita que proviene
 
 ![capturaEjNE7](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%207.PNG)
 
-### Vista "Gráfica" de BBDD Naves Espaciales
+### Vista "gráfica" Naves Espaciales
 
 En la siguiente imágen se pueden ver todas las tablas de las que se compone la Base de Datos Proxectos_investigación, y más abajo cada una de las tablas y sus componentes.
 
