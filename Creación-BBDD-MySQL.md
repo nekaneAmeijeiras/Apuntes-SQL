@@ -4,6 +4,8 @@
   * [Implementación en MySQL](#Implementación-en-MySQL)
   * [Vista "Gráfica" de la Base de Datos](#Vista-"Gráfica"-de-la-Base-de-Datos)
 * [Ejercicio Naves Espaciales](#Ejercicio-Naves-Espaciales)
+  * [Implementación en MySQL](#Implementación-en-MySQL)
+  * [Vista "Gráfica" de la Base de Datos](#Vista-"Gráfica"-de-la-Base-de-Datos)
 
 
  ## Ejercicio DDL 1 Proxecto Investigación
