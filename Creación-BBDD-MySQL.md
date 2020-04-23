@@ -80,7 +80,7 @@ Utilizamos `ALTER TABLE` para añadir la clave foranea en en habita que proviene
 
 ![capturaEjNE7](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%207.PNG)
 
-### Vista "Gráfica" Naves Espaciales
+### Vista "gráfica" Naves Espaciales
 
 En la siguiente imágen se pueden ver todas las tablas de las que se compone la Base de Datos Proxectos_investigación, y más abajo cada una de las tablas y sus componentes.
 
