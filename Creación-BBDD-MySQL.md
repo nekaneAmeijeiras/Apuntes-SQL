@@ -4,7 +4,7 @@
   * [Implementación en MySQL (Proxecto Investigación)](#Implementación-en-MySQL-(Proxecto-Investigación))
   * [Vista "Gráfica" de Proxecto Investigación](#Vista-"Gráfica"-de-Proxecto-Investigación)
 * [Ejercicio DDL 2 Naves Espaciales](#Ejercicio-DDL-2-Naves-Espaciales)
-  * [Implementación en MySQL(Naves Espaciales)](#Implementación-en-MySQL-(Naves-Espaciales))
+  * [Implementación en MySQL (Naves Espaciales)](#Implementación-en-MySQL-(Naves-Espaciales))
   * [Vista "Gráfica" de Naves Espaciales](#Vista-"Gráfica"-de-Naves-Espaciales)
 
 
@@ -14,7 +14,7 @@
  
   ![capturaEjercicio](https://github.com/davidgchaves/first-steps-with-git-and-github-wirtz-asir1-and-dam1/blob/master/exercicios-ddl/1-proxectos-de-investigacion/img/1-proxectos-de-investigacion-relacional.jpeg)
   
-### Implementación en MySQL
+### Implementación en MySQL (Proxecto Investigación)
 Crearemos primero la base de datos mediante el comando  `CREATE DATABASE`  y posteriormente entraremos en ella mediante `USE` más el nombre de la base de datos para comenzar a crear todas las tablas dentro de esta.
 Después, creamos respectivamente, las tablas Sede, Departamento, Ubicación, Grupo, Profesor y Proxecto.
 
@@ -41,7 +41,7 @@ Por último borramos la clave foranea de profesor mediante `ALTER TABLE` y `DROP
 ![capturaEjPI7](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Proxectos_Investigaci%C3%B3n/Captura%207.PNG)
 
 
-### Vista "Gráfica" de la Base de Datos
+### Vista "Gráfica" de Proxecto Investigación
 
 En la siguiente imágen se pueden ver todas las tablas de las que se compone la Base de Datos Proxectos_investigación, y más abajo cada una de las tablas y sus componentes.
 
@@ -60,7 +60,7 @@ A partir de este esquema relacional, realizaremos su implementación en MySQL.
 
 ![capturaEjercicio](https://github.com/davidgchaves/first-steps-with-git-and-github-wirtz-asir1-and-dam1/blob/master/exercicios-ddl/2-naves-espaciais/img/2-naves-espaciais-relacional.jpeg)
 
-### Implementación en MySQL
+### Implementación en MySQL (Naves Espaciales)
 
 Como en el ejercicio anterior comenzamos creando la base de datos y posteriormente, entraremos en ella para comenzar a crear las tablas. Después, creamos respectivamente, las tablas Servizo, Dependencia, Cámara, Tripulación, Planeta, Visita, Habita y Raza.
 
@@ -80,7 +80,7 @@ Utilizamos `ALTER TABLE` para añadir la clave foranea en en habita que proviene
 
 ![capturaEjNE7](https://github.com/nekaneAmeijeiras/Apuntes-SQL/blob/master/ImagenesEjerciciosDDL/Capturas%20Naves_Espaciales/Captura%207.PNG)
 
-### Vista "Gráfica" de la Base de Datos
+### Vista "Gráfica" de Naves Espaciales
 
 En la siguiente imágen se pueden ver todas las tablas de las que se compone la Base de Datos Proxectos_investigación, y más abajo cada una de las tablas y sus componentes.
 
