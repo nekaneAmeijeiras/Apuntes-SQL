@@ -2,7 +2,7 @@
 ## Índice
 * [Ejercicio DDL 1 Proxecto Investigación](#Ejercicio-DDL-1-Proxecto-Investigación)
   * [Implementación en MySQL Proxecto Investigación](#Implementación-en-MySQL-Proxecto-Investigación)
-  * [Vista "Gráfica" de BBDD Proxecto Investigación](#Vista-"Gráfica"-de-BBDD-Proxecto-Investigación)
+  * [Vista "gráfica" de BBDD Proxecto Investigación](#Vista-"gráfica"-de-BBDD-Proxecto-Investigación)
 * [Ejercicio DDL 2 Naves Espaciales](#Ejercicio-DDL-2-Naves-Espaciales)
   * [Implementación en MySQL Naves Espaciales](#Implementación-en-MySQL-Naves-Espaciales)
   * [Vista "Gráfica" de BBDD Naves Espaciales](#Vista-"Gráfica"-de-BBDD-Naves-Espaciales)
